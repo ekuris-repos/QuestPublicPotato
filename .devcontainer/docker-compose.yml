@@ -12,5 +12,8 @@ services:
 
     volumes:
       - type: bind
+        source: ${PWD}
+        target: /workspaces/octocat_supply-special-fiesta
+      - type: bind
         source: /var/run/docker.sock
         target: /var/run/docker.sock

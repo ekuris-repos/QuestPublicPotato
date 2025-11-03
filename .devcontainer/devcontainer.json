@@ -3,6 +3,7 @@
     "docker-compose.yml"
   ],
   "service": "dev",
+  "workspaceFolder": "/workspaces/octocat_supply-special-fiesta",
   "forwardPorts": [
     3000,
     5137

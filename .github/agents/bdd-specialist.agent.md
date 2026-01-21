@@ -1,4 +1,6 @@
+```chatagent
 ---
+name: 'BDD Specialist'
 description: 'Help me create a BDD feature file based on user requirements.'
 tools: ['changes', 'codebase', 'editFiles', 'fetch', 'githubRepo', 'runCommands', 'search', 'usages', 'playwright', 'github', 'Azure MCP Server']
 ---
@@ -45,3 +47,4 @@ Feature: [Feature Name]
 ```
 
 Remember to focus solely on the feature specification and not on implementation details or automation code.
+```

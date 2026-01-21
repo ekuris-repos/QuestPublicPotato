@@ -1,5 +1,5 @@
 ---
-mode: 'agent'
+agent: agent
 description: 'Complete Demo: Add Cart Page and Icon with Vision and Agent Mode'
 tools: ['changes', 'codebase', 'editFiles', 'fetch', 'findTestFiles', 'githubRepo', 'openSimpleBrowser', 'problems', 'runCommands', 'runTasks', 'search', 'terminalLastCommand', 'testFailure', 'usages', 'playwright', 'github']
 ---
@@ -47,11 +47,13 @@ Use the provided cart design image (../docs/design/cart.png) as the visual refer
 5. **Integration**: Connect with existing Product pages
 
 ### Key Features to Implement
-- Add items to cart from product pages
-- View all cart items on dedicated cart page
-- Update item quantities
+- Add items to cart from product pages with selected quantity
+- Each cart item must track quantity (not duplicate entries for same product)
+- Adding the same product again should increment its quantity
+- View all cart items on dedicated cart page showing quantity per item
+- Update item quantities with +/- controls on the cart page
 - Remove items from cart
-- Calculate subtotals and totals
+- Calculate subtotals (price × quantity) and totals
 - Calculate shipping costs based on total price
 - Persist cart state (localStorage)
 - Responsive design matching existing app style

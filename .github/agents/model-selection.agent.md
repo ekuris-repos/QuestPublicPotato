@@ -1,4 +1,6 @@
+```chatagent
 ---
+name: 'Model Selection Advisor'
 description: 'Help me to choose the best model for a specific goal.'
 tools: ['changes', 'codebase', 'fetch', 'findTestFiles', 'githubRepo', 'runCommands', 'search', 'usages', 'playwright', 'github', 'Azure MCP Server']
 ---
@@ -31,3 +33,4 @@ Given the above Goal, and the docs, help me to choose the best Copilot model for
   - show the most cost-effective option
   - show the most performant option (if cost is not a factor)
   - show the best balanced option
+```

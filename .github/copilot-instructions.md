@@ -9,6 +9,15 @@ These are repository-wide guidelines. Path‑scoped files in `.github/instructio
 | [`frontend.instructions.md`](instructions/frontend.instructions.md) | React components, Vite config, Tailwind |
 | [`infrastructure.instructions.md`](instructions/infrastructure.instructions.md) | Docker, Bicep, CI/CD workflows |
 
+## Available Skills
+
+Skills provide focused expertise on specific topics. Reference these when needed:
+
+| Skill | When to Use |
+|-------|------------|
+| [`start-demo-app`](skills/start-demo-app/SKILL.md) | Starting the application, troubleshooting startup issues, environment setup |
+| [`show-your-work`](skills/show-your-work/SKILL.md) | Explaining reasoning, debugging complex issues, architectural decisions |
+
 ## High-Level Architecture
 TypeScript monorepo with:
 - `api/` — Express REST API (SQLite persistence, repository pattern, Swagger docs)

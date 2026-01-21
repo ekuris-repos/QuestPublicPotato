@@ -21,11 +21,20 @@ cd QuestPublicPotato
 - Click the green "Code" button on GitHub
 - Select "Codespaces" → "Create codespace on QuestPotato"
 - Everything is pre-configured!
+- **Important:** Set API port (3000) to `Public` in the Ports panel to avoid CORS errors
 
 **Option B: Local VS Code**
 - Open the folder in VS Code
 - Accept the prompt to reopen in Dev Container (recommended)
 - Or run `npm install` manually if not using containers
+
+**Need detailed startup instructions?** Agent Potato can help! Ask:
+```
+How do I start the demo app?
+I'm getting CORS errors, what should I check?
+```
+
+Or refer to the [`start-demo-app` skill](./../.github/skills/start-demo-app/SKILL.md) for comprehensive startup guidance.
 
 ### 3. Meet Agent Potato!
 

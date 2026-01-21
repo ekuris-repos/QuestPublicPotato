@@ -42,19 +42,28 @@ erDiagram
 
 ## 🚀 Getting Started
 
+**Quick Start:** Use VS Code tasks for the best experience!
+
 1. Clone this repository
-2. Build the projects:
+2. Open in VS Code or GitHub Codespaces
+3. Use Command Palette (`Cmd/Ctrl+Shift+P`) → `Tasks: Run Task`:
+   - `Build All` - Build both API and frontend
+   - `Start All Services` - Run the application
 
-   ```bash
-   # Build API and Frontend
-   npm install && npm run build
-   ```
+**Detailed Instructions:** See the [`start-demo-app` skill](.github/skills/start-demo-app/SKILL.md) for environment-specific guidance.
 
-3. Start the application:
+### Manual Build (Alternative)
 
-   ```bash
-   npm run dev
-   ```
+```bash
+# Build API and Frontend
+npm install && npm run build
+```
+
+### Manual Start (Alternative)
+
+```bash
+npm run dev
+```
 
 Optional: initialize the database explicitly (migrations + seed):
 

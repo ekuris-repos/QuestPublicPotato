@@ -144,6 +144,58 @@
         "showReuseMessage": false,
         "clear": false
       }
+    },
+    {
+      "label": "Start API",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "dev:api"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    },
+    {
+      "label": "Start Frontend",
+      "type": "shell",
+      "command": "npm",
+      "args": [
+        "run",
+        "dev:frontend"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    },
+    {
+      "label": "Start All Services",
+      "dependsOn": [
+        "Start API",
+        "Start Frontend"
+      ],
+      "problemMatcher": []
     }
   ],
   "inputs": [

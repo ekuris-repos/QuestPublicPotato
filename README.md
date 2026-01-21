@@ -5,6 +5,16 @@
 
 Welcome to the OctoCAT Supply Website - your go-to demo for showcasing the incredible capabilities of GitHub Copilot, GHAS, and the power of AI-assisted development!
 
+## 🥔 NEW: Meet Agent Potato!
+
+**Agent Potato** is your friendly southern demo guide - a specialized Copilot agent persona that knows all the demo resources in this repo inside and out! Just ask `@agent-potato` in Copilot Chat for help with:
+- Finding the right demo for your audience
+- Applying patch sets and navigating walkthroughs
+- Troubleshooting demo issues
+- Planning your demo flow
+
+**[Get Started with Agent Potato →](./demo/AGENT-POTATO-QUICKSTART.md)**
+
 > [!NOTE]
 > For a walkthrough of all demos, check out the [Demo Walkthroughs](./demo/walkthroughs/README.md).
 

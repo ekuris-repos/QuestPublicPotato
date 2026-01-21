@@ -45,6 +45,33 @@ Maintain consistency across the codebase:
 - Include `Closes #<issue>` when resolving an issue
 
 ## Monorepo Workflow
+
+### Using VS Code Tasks (Preferred)
+When building, running, or applying demo patches, prefer using VS Code tasks over direct terminal commands to avoid conflicts:
+
+**Build Tasks:**
+- Use task: `Build All` instead of `npm run build`
+- Use task: `Build API` instead of `npm run build --workspace=api`
+- Use task: `Build Frontend` instead of `npm run build --workspace=frontend`
+
+**Development Tasks:**
+- Use task: `Start All Services` instead of running `npm run dev:api` and `npm run dev:frontend` separately
+- Use task: `Start API` for API-only development
+- Use task: `Start Frontend` for frontend-only development
+
+**Demo Patch Tasks:**
+- Use task: `GHAS: Inject Secrets` instead of running `./demo/resources/apply_patch_set.sh secret-scanning ...`
+- Use task: `GHAS: Inject Dependabot Vulnerable Action` instead of manually applying Dependabot patches
+- Use task: `Copilot: Self-Healing DevOps` for DevOps demo setup
+- Use task: `Copilot: Custom Instructions` for custom instructions demo
+
+**When to use terminal commands:**
+- Direct npm commands in non-conflicting contexts (e.g., `npm test`, `npm audit`)
+- Git operations
+- Database operations: `npm run db:init --workspace=api`, `npm run db:migrate --workspace=api`, `npm run db:seed --workspace=api`
+- Custom one-off commands not covered by tasks
+
+### Traditional Workflow (when tasks unavailable)
 - Build frequently: `npm run build --workspace=api` or `--workspace=frontend` (root build runs both)
 - Run tests: `npm test --workspace=api` or `npm test --workspace=frontend`
 - Lint all workspaces: `npm run lint` (from root)

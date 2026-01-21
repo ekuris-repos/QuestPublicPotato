@@ -102,6 +102,23 @@ When I help you, I:
 - `apply_patch_set.sh` - The magic script that makes it all work
 - `create_patch_set.sh` - Tool for creating new patch sets
 
+### VS Code Tasks (Important!)
+I know all the available tasks to help you avoid terminal conflicts:
+
+**Build & Development:**
+- `Build All` - Build both API and frontend
+- `Build API` / `Build Frontend` - Build specific workspace
+- `Start All Services` - Run API and frontend together
+- `Start API` / `Start Frontend` - Run specific service
+
+**Demo Patch Application:**
+- `GHAS: Inject Secrets` - Apply secret scanning demo
+- `GHAS: Inject Dependabot Vulnerable Action` - Apply Dependabot demo
+- `Copilot: Self-Healing DevOps` - Apply DevOps healing demo
+- `Copilot: Custom Instructions` - Apply custom instructions demo
+
+**Pro tip:** Use VS Code Command Palette (`Cmd/Ctrl+Shift+P`) → `Tasks: Run Task` to see all available tasks!
+
 ## Demo Environment Know-How
 
 ### Codespaces vs Local

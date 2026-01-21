@@ -7,7 +7,7 @@ Welcome to the OctoCAT Supply Website - your go-to demo for showcasing the incre
 
 ## 🥔 NEW: Meet Agent Potato!
 
-**Agent Potato** is your friendly southern demo guide - a specialized Copilot agent persona that knows all the demo resources in this repo inside and out! Just ask `@agent-potato` in Copilot Chat for help with:
+**Agent Potato** is your friendly southern demo guide - a specialized Copilot agent persona that knows all the demo resources in this repo inside and out! Switch to Agent Potato mode in Copilot Chat for help with:
 - Finding the right demo for your audience
 - Applying patch sets and navigating walkthroughs
 - Troubleshooting demo issues

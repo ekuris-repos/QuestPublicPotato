@@ -29,54 +29,61 @@ cd QuestPublicPotato
 
 ### 3. Meet Agent Potato!
 
-Once your environment is ready, open GitHub Copilot Chat and mention **@agent-potato**:
+Once your environment is ready, switch to Agent Potato mode in GitHub Copilot Chat:
+
+1. Open GitHub Copilot Chat
+2. Click the agent selector (or use the command palette: `Copilot: Select Agent`)
+3. Choose **Agent Potato** from the list
+4. Start chatting!
 
 ```
-@agent-potato Howdy! What demos are available in this repo?
+Howdy! What demos are available in this repo?
 ```
 
 ## What Can Agent Potato Help You With?
 
+> **Note:** First switch to Agent Potato mode using the agent selector in Copilot Chat!
+
 ### 🎭 Discover Demos
 ```
-@agent-potato What Copilot demos can I run?
-@agent-potato Show me all the security demos
-@agent-potato What's the best demo for showing AI capabilities?
+What Copilot demos can I run?
+Show me all the security demos
+What's the best demo for showing AI capabilities?
 ```
 
 ### 📍 Navigate Your Demo Environment
 ```
-@agent-potato What's the current state of this repo?
-@agent-potato Have any patch sets been applied?
-@agent-potato Where am I in the demo flow?
+What's the current state of this repo?
+Have any patch sets been applied?
+Where am I in the demo flow?
 ```
 
 ### 🔧 Apply Patch Sets
 ```
-@agent-potato How do I apply the secret-scanning patch set?
-@agent-potato Walk me through the Dependabot demo setup
-@agent-potato What patch sets are available?
+How do I apply the secret-scanning patch set?
+Walk me through the Dependabot demo setup
+What patch sets are available?
 ```
 
 ### 📚 Get Walkthrough Guidance
 ```
-@agent-potato Walk me through the GHAS demo
-@agent-potato What's next in the Copilot Agent Mode demo?
-@agent-potato How do I demo custom instructions?
+Walk me through the GHAS demo
+What's next in the Copilot Agent Mode demo?
+How do I demo custom instructions?
 ```
 
 ### 🛠️ Troubleshoot Issues
 ```
-@agent-potato My MCP server isn't working
-@agent-potato I'm getting CORS errors
-@agent-potato How do I fix port visibility in Codespaces?
+My MCP server isn't working
+I'm getting CORS errors
+How do I fix port visibility in Codespaces?
 ```
 
 ### 📋 Plan Your Demo
 ```
-@agent-potato I have 30 minutes to show AI features, what should I demo?
-@agent-potato Create a demo plan for a security-focused audience
-@agent-potato How do I combine Copilot and GHAS in one demo?
+I have 30 minutes to show AI features, what should I demo?
+Create a demo plan for a security-focused audience
+How do I combine Copilot and GHAS in one demo?
 ```
 
 ## Available Demo Walkthroughs
@@ -92,11 +99,11 @@ Agent Potato knows all of these inside and out:
 
 ## Example Demo Flow with Agent Potato
 
-Here's a typical interaction:
+Here's a typical interaction (after switching to Agent Potato mode):
 
 **You:**
 ```
-@agent-potato I want to demo how Copilot can find and fix security vulnerabilities. 
+I want to demo how Copilot can find and fix security vulnerabilities. 
 What's the best way to do this?
 ```
 
@@ -115,7 +122,7 @@ Want me to walk you through applying that patch set?
 
 **You:**
 ```
-@agent-potato Yes, please walk me through it
+Yes, please walk me through it
 ```
 
 And Agent Potato will guide you step-by-step!
@@ -140,22 +147,24 @@ Use VS Code Command Palette → "Run Task" to see all available patch set tasks,
 
 ## Common Issues & Solutions
 
+> **Remember:** Switch to Agent Potato mode first!
+
 ### "My MCP server won't start"
 Ask Agent Potato:
 ```
-@agent-potato My MCP server isn't working, what should I check?
+My MCP server isn't working, what should I check?
 ```
 
 ### "CORS errors when frontend calls API"
 Ask Agent Potato:
 ```
-@agent-potato I'm getting CORS errors in Codespaces
+I'm getting CORS errors in Codespaces
 ```
 
 ### "Which demo should I run?"
 Ask Agent Potato:
 ```
-@agent-potato I need a demo for [your audience type], what do you recommend?
+I need a demo for [your audience type], what do you recommend?
 ```
 
 ## Agent Potato's Personality
@@ -167,8 +176,9 @@ Agent Potato brings a friendly, southern charm to technical guidance:
 - Makes demos feel less stressful and more fun!
 
 ## Ready to Get Started?
-
-1. Open GitHub Copilot Chat in VS Code
+Switch to **Agent Potato** mode using the agent selector
+3. Type: `Howdy! I'm ready to explore GitHub Copilot demos. Where should I start?`
+4. Open GitHub Copilot Chat in VS Code
 2. Type: `@agent-potato Howdy! I'm ready to explore GitHub Copilot demos. Where should I start?`
 3. Follow Agent Potato's guidance!
 

@@ -13,10 +13,10 @@ jobs:
     
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v5
+      uses: actions/checkout@v6
       
     - name: Setup Node.js 24
-      uses: actions/setup-node@v5
+      uses: actions/setup-node@v6
       with:
         node-version: 24
         cache: 'npm'
@@ -41,7 +41,7 @@ jobs:
 
     - name: Upload Coverage Reports
       if: always()
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v6
       with:
         name: coverage-reports-node
         path: |
